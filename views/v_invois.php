@@ -1,5 +1,4 @@
 <?php
-// Pastikan data invois wujud dalam session sebelum papar
 if (!isset($_SESSION['invois_data'])) {
     echo "<script>
             alert('Invois belum ada kerana belum ada tempahan.');

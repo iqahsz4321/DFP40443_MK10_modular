@@ -47,7 +47,6 @@
         const totalPriceEl = document.getElementById('total-price');
         const form = document.querySelector('form');
 
-        // Fungsi kira jumlah harga secara live (Real-time)
         function calculateTotal() {
             let total = 0;
             quantityInputs.forEach(input => {
@@ -69,7 +68,6 @@
             });
         });
 
-        // Validasi: Tak boleh hantar kalau total RM 0.00
         if (form) {
             form.addEventListener('submit', function(e) {
                 let total = 0;

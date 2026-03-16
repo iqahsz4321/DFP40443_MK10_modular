@@ -1,8 +1,5 @@
 <?php
-/**
- * Fungsi ini menyimpan semua maklumat produk biskut.
- * Senang nak maintain kalau ada perubahan harga atau nama produk.
- */
+
 function dapatkanDataBiskut() {
     return [
         [
@@ -48,10 +45,6 @@ function dapatkanDataBiskut() {
     ];
 }
 
-/**
- * Fungsi tambahan jika anda mahu buat pengiraan di luar proses.php 
- * (Optional, tapi bagus untuk tunjuk skil kat lecturer)
- */
 function formatRM($nilai) {
     return "RM " . number_format($nilai, 2);
 }

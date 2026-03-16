@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mulish:wght@200..1000&family=Questrial&display=swap" rel="stylesheet">
     
     <style>
-        /* CSS ASAL AWAK - KEKAL SAMA */
         .page-body { font-family: 'Questrial', sans-serif; background-color: #f0f2f5; margin: 0; padding: 20px; min-height: 100vh; display: flex; flex-direction: column; box-sizing: border-box; }
         .container { max-width: 1200px; margin: 0 auto; flex: 1; width: 100%; }
         .header-wrapper { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; background-color: #333; padding: 20px; border-radius: 8px; }
@@ -62,7 +61,6 @@
             <h2 class="site-title">Biskut Klasik</h2>
             <nav class="nav-menu">
                 <?php 
-                    // Detect menu aktif untuk letak class 'active'
                     $active = $_GET['menu'] ?? 'utama'; 
                 ?>
                 <a href="index.php?menu=utama" class="nav-link <?= ($active == 'utama') ? 'active' : '' ?>">Utama</a>
